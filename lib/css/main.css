@@ -1,0 +1,100 @@
+
+body {
+  /*background: black;*/
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background: black;
+  height: 3em;
+  color: white;
+  width: 100%;
+}
+
+nav {
+  float: right;
+  margin: 25px
+}
+
+nav a {
+  text-decoration: none;
+  color: bisque;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: bisque;
+  color: black;
+
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 20px;
+  font-family: 'Cormorant', sans-serif;
+}
+
+h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 20px;
+  font-family: 'Cormorant', sans-serif;
+}
+
+section, article, p {
+}
+
+article {
+  display: inline-block;
+}
+
+#box {
+  background-color: beige;
+}
+
+.hero {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/c/c0/Mountains_near_Sochi_banner.jpg') no-repeat;
+  display: cover;
+  padding: 10px;
+}
+
+.underlines {
+  border-bottom: 2px solid indigo;
+}
+
+.team {
+  height: 250px;
+  width: 200px;
+  margin: 10px auto;
+  border-radius: 20%;
+}
+
+footer {
+  margin: 10px auto;
+}
+
+#humor {
+  width: 20%;
+  right: 25%;
+}
+
+#humility {
+/*   width: 30%; */
+  float: right;
+  margin: 20px 180px;
+}
+
+#humility a img{
+  width: 200px;
+  margin: 80px 40px;
+  display: block;
+}
+
+#logo {
+  float: left;
+  margin: 20px
+}
