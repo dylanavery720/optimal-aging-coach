@@ -14,9 +14,9 @@ export default class Main extends React.Component {
         <section>
         <Nav />
         <Hero />
+        <Articles />
         <Humor />
         <Humility />
-        <Articles />
         <Footer />
         </section>
     )
