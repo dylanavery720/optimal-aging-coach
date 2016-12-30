@@ -58,6 +58,17 @@ article {
   margin: 0 auto;
 }
 
+.screenshot {
+  overflow: scroll;
+  width: 40%;
+}
+
+.card {
+  text-align: left;
+  display: inline-block;
+  width: 40%;
+}
+
 #box {
   background-color: beige;
 }
