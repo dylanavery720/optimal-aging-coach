@@ -1,15 +1,10 @@
-
-
-
-
-
 import React from 'react'
 
 
 export default class Hero extends React.Component {
 
-render() {
-  return (
+  render() {
+    return (
 
     <section className="hero">
     <h1><span className="underlines">HEART</span></h1>
@@ -21,6 +16,6 @@ render() {
     </p>
     </section>
 )
-}
+  }
 
 }

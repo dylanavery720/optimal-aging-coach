@@ -1,13 +1,10 @@
-
-
-
 import React from 'react'
 
 
 export default class Humility extends React.Component {
 
-render() {
-  return (
+  render() {
+    return (
     <header>
       <h1 id="logo">Optimal Aging Coach</h1>
       <nav>
@@ -18,6 +15,6 @@ render() {
       </nav>
     </header>
 )
-}
+  }
 
 }

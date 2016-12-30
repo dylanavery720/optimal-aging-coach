@@ -52,6 +52,23 @@ article {
   display: inline-block;
 }
 
+.articles {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.screenshot {
+  overflow: scroll;
+  width: 40%;
+}
+
+.card {
+  text-align: left;
+  display: inline-block;
+  width: 40%;
+}
+
 #box {
   background-color: beige;
 }
@@ -82,13 +99,13 @@ footer {
   right: 25%;
 }
 
-#humility {
+.humility {
 /*   width: 30%; */
   float: right;
   margin: 20px 180px;
 }
 
-#humility a img{
+.humility a img{
   width: 200px;
   margin: 80px 40px;
   display: block;
