@@ -7,7 +7,7 @@ export default class Articles extends React.Component {
   render() {
     return (
     <article className='articles'>
-      <h1 className='underlines'>ARTICLES</h1>
+      <h1 id='article' className='underlines'>ARTICLES</h1>
       <Card title='Sweet Sleep' preview='“Early to sleep
       and early to rise makes a man health, wealthy
       and wise.” says the 1735 edition of Poor
