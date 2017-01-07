@@ -11,7 +11,11 @@ export default class Card extends React.Component {
   }
 
   expand() {
-    this.setState({ expanded: true })
+    if (!this.state.expanded) {
+      this.setState({ expanded: true })
+    } else {
+      this.setState({ expanded: false })
+    }
   }
 
   render() {
@@ -21,18 +25,14 @@ export default class Card extends React.Component {
       <h1>{this.props.title}</h1>
       <h2>{this.props.preview}</h2>
       <p onClick={this.expand}>Show More?</p>
-      <h2>{this.props.url}</h2>
-      {/* SHOW NEXT 2? RIGHT LEFT BUTTONS */}
     </section>
 )
     }
     return (
-  <section className='card'>
+  <section className='full'>
     <h1>{this.props.title}</h1>
     <h2>{this.props.full}</h2>
-    <p onClick={this.props.expand}>Show More?</p>
-    <h2>{this.props.url}</h2>
-    {/* SHOW NEXT 2? RIGHT LEFT BUTTONS */}
+    <p onClick={this.expand}>Show Less?</p>
   </section>
 )
   }
