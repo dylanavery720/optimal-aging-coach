@@ -1,6 +1,5 @@
 
 body {
-  /*background: black;*/
   width: 100%;
   text-align: center;
   font-size: 20px;
@@ -8,25 +7,29 @@ body {
 }
 
 header {
-  background: black;
+  color: #004B8D;
   height: 3em;
-  color: white;
+  background: #88B04B;
   width: 100%;
+}
+
+a {
+  color: #CE3175
 }
 
 nav {
   float: right;
-  margin: 25px
+  margin: 20px
 }
 
 nav a {
   text-decoration: none;
-  color: bisque;
-  padding: 10px;
+  color: #EDCDC2;
+  padding: 18px;
 }
 
 nav a:hover {
-  background-color: bisque;
+  background-color: #EDCDC2;
   color: black;
 
 }
@@ -69,18 +72,24 @@ article {
   width: 40%;
 }
 
+.full {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
 #box {
-  background-color: beige;
+  background-color: #88B04B;
 }
 
 .hero {
-  background: url('https://upload.wikimedia.org/wikipedia/commons/c/c0/Mountains_near_Sochi_banner.jpg') no-repeat;
+  background: url('http://wonderwordz.com/wp-content/uploads/2016/10/w14-2.jpg') no-repeat;
   display: cover;
   padding: 10px;
 }
 
 .underlines {
-  border-bottom: 2px solid indigo;
+  border-bottom: 2px solid #5A7247;
 }
 
 .team {
@@ -92,11 +101,18 @@ article {
 
 footer {
   margin: 10px auto;
+  background: #88B04B;
+  padding: 10px;
 }
 
 #humor {
   width: 20%;
   right: 25%;
+}
+
+#article {
+  width: 20%;
+  margin: 10px auto;
 }
 
 .humility {

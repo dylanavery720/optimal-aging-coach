@@ -12,7 +12,6 @@ export default class Hero extends React.Component {
       "AH HA!"
     </p>
     <p>
-      *Site Under Construction*
     </p>
     </section>
 )
