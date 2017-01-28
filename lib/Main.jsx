@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
 import Nav from './Nav'
 import Hero from './Hero'
 import Humor from './Humor'
 import Humility from './Humility'
 import Articles from './Articles'
 import Footer from './Footer'
+import reset from './css/reset'
+import main from './css/main'
+
 
 export default class Main extends React.Component {
 
@@ -14,7 +16,8 @@ export default class Main extends React.Component {
         <section>
         <Nav />
         <Hero />
-        <Articles />
+        {/* <Articles /> */}
+        {this.props.children}
         <Humor />
         <Humility />
         <Footer />
@@ -23,5 +26,3 @@ export default class Main extends React.Component {
   }
 
 }
-
-render(<Main />, document.getElementById('application'))
