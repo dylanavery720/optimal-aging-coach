@@ -11,14 +11,6 @@ export default class Humor extends React.Component {
       <p>
         Robin
       </p>
-      <img src="images/Cindy.jpg" className="team"/>
-      <p>
-        Cindy
-      </p>
-      <img src="images/Susie.jpg" className="team"/>
-      <p>
-        Susie
-      </p>
     </article>
 )
   }

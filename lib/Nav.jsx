@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Router, Route, Link } from 'react-router';
 
 export default class Humility extends React.Component {
 
@@ -8,7 +8,7 @@ export default class Humility extends React.Component {
     <header>
       <h1 id="logo">Optimal Aging Coach</h1>
       <nav>
-        <a href="#">Heart</a>
+        <Link to="/articles">Heart</Link>
         <a href="#">Humor</a>
         <a href="#">Humility</a>
         <a href="#">Hire Me</a>

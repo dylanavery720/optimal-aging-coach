@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Router, Route, Link, IndexRoute, hashHistory, browserHistory, IndexRedirect } from 'react-router';
 
 export default class Card extends React.Component {
   constructor() {
@@ -24,7 +24,7 @@ export default class Card extends React.Component {
     <section className='card'>
       <h1>{this.props.title}</h1>
       <h2>{this.props.preview}</h2>
-      <p onClick={this.expand}>Show More?</p>
+      <Link to={this.props.src}>Show More?</Link>
     </section>
 )
     }
