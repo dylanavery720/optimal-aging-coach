@@ -16,7 +16,6 @@ export default class Main extends React.Component {
         <section>
         <Nav />
         <Hero />
-        {/* <Articles /> */}
         {this.props.children}
         <Humor />
         <Humility />

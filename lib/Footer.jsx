@@ -6,10 +6,8 @@ export default class Footer extends React.Component {
   render() {
     return (
   <footer>
-    <a href="#">Facebook</a>
+    <a href="https://www.facebook.com/shanagoldenmanagement/">Facebook</a>
     <br/>
-    <br/>
-    <a href="#">LinkedIn</a>
   </footer>
 )
   }
