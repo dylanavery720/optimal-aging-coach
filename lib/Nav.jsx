@@ -6,12 +6,12 @@ export default class Humility extends React.Component {
   render() {
     return (
     <header>
-      <h1 id="logo">Optimal Aging Coach</h1>
+      <Link to="/"><h1 id="logo">Optimal Aging Coach</h1></Link>
       <nav>
         <Link to="/articles">Heart</Link>
-        <a href="#">Humor</a>
-        <a href="#">Humility</a>
-        <a href="#">Hire Me</a>
+        <Link to="/articles">Humor</Link>
+        <Link to="/articles">Humility</Link>
+        <Link to="/articles">Hire Me</Link>
       </nav>
     </header>
 )
